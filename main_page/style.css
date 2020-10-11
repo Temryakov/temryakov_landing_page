@@ -1,0 +1,120 @@
+* {
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
+}
+
+p {
+    font-weight: lighter;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 2.3ch;
+}
+
+body {
+    overflow-anchor: none;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30vh;
+    color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background-size: cover;
+    background-color: rgba(0,0,0, 0.5);
+    background-position: center;
+    background-image: url('/Users/maksimtemryakov/Public/programming/projects/Визитка/img/background.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: transparent;
+    height: 60px;
+    color: white;
+    position: fixed;
+}
+.hatbutton {
+    background-color: transparent;
+    font-weight: lighter;
+    color: aliceblue;
+    border: none;
+    transition-duration: 0.4s;
+    width: 100px;
+}
+.hatbutton:hover {
+    color: rgb(36, 149, 255);
+}
+
+.button1 {
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    width: 220px;
+    height: 40px;
+    transition-duration: 0.4s;
+    font-size: auto;
+    font-weight: lighter;
+
+}
+.button1:hover {
+    background-color: rgb(0, 92, 179);
+}
+.startbox {
+    color: black;
+    width: 100vw;
+    padding-top: 5%;
+}
+
+.middlebox {
+    background-size: cover;
+
+    background-position: center;
+    background-image: url('/Users/maksimtemryakov/Public/programming/projects/resume/img/background.jpg');
+    width: 100vw;
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: 5%;
+}
+
+
+.formbox {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.fbbutton {
+    background-color: rgb(0, 132, 255);;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: none;
+    color: white;
+    
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+    color: rgb(173, 170, 170);
+    font-weight: lighter;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.footer_button {
+    border: none;
+    color: rgb(173, 170, 170);
+    background-color: transparent;
+    transition-duration: 0.4s;
+    font-weight: lighter;
+}
+
+.footer_button:hover {
+    color: rgb(241, 241, 241);
+}
